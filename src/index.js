@@ -462,6 +462,10 @@ export function useDropzone({
 
   const onDragEnterCb = useCallback(
     event => {
+      https://stackoverflow.com/questions/14194324/firefox-firing-dragleave-when-dragging-over-text
+      try { if (event.relatedTarget.nodeType == 3) return } catch(err) {}
+      if (event.target === event.relatedTarget) return
+
       event.preventDefault()
       // Persist here because we need the event later after getFilesFromEvent() is done
       event.persist()
@@ -511,6 +515,10 @@ export function useDropzone({
 
   const onDragLeaveCb = useCallback(
     event => {
+      https://stackoverflow.com/questions/14194324/firefox-firing-dragleave-when-dragging-over-text
+      try { if (event.relatedTarget.nodeType == 3) return } catch(err) {}
+      if (event.target === event.relatedTarget) return
+
       event.preventDefault()
       event.persist()
 
