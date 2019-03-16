@@ -1,6 +1,6 @@
 {
-  "name": "react-dropzone",
-  "description": "Simple HTML5 drag-drop zone with React.js",
+  "name": "@fppden/react-dropzone",
+  "description": "Fork of simple HTML5 drag-drop zone with React.js",
   "main": "dist/index.js",
   "module": "dist/es/index.js",
   "scripts": {
@@ -48,7 +48,9 @@
   },
   "jest": {
     "clearMocks": true,
-    "setupFilesAfterEnv": ["<rootDir>/testSetup.js"],
+    "setupFilesAfterEnv": [
+      "<rootDir>/testSetup.js"
+    ],
     "coveragePathIgnorePatterns": [
       "/dist/",
       "/node_modules/",
@@ -68,12 +70,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-dropzone/react-dropzone.git"
+    "url": "https://github.com/fppden/react-dropzone.git"
   },
   "bugs": {
-    "url": "https://github.com/react-dropzone/react-dropzone/issues"
+    "url": "https://github.com/fppden/react-dropzone/issues"
   },
-  "homepage": "https://github.com/react-dropzone/react-dropzone",
+  "homepage": "https://github.com/fppden/react-dropzone",
   "author": "Param Aggarwal",
   "contributors": [
     "Andrey Okonetchnikov <andrey@okonet.ru> (http://okonet.ru)",
@@ -81,7 +83,8 @@
     "Param Aggarwal",
     "Tyler Waters <tyler.waters@gmail.com>",
     "Rick Markins <rmarkins@gmail.com>",
-    "Roland Groza <rolandjitsu@gmail.com>"
+    "Roland Groza <rolandjitsu@gmail.com>",
+    "Denis T <me@fppden.info>"
   ],
   "license": "MIT",
   "peerDependencies": {
