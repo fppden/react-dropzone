@@ -1,16 +1,18 @@
-![react-dropzone logo](https://raw.githubusercontent.com/react-dropzone/react-dropzone/master/logo/logo.png)
+![react-dropzone logo](https://raw.githubusercontent.com/fppden/react-dropzone/master/logo/logo.png)
 
 # react-dropzone
 
-[![npm](https://img.shields.io/npm/v/react-dropzone.svg?style=flat-square)](https://www.npmjs.com/package/react-dropzone)
-[![Build Status](https://img.shields.io/travis/react-dropzone/react-dropzone/master.svg?style=flat-square)](https://travis-ci.org/react-dropzone/react-dropzone)
-[![codecov](https://img.shields.io/codecov/c/gh/react-dropzone/react-dropzone/master.svg?style=flat-square)](https://codecov.io/gh/react-dropzone/react-dropzone)
+[![npm](https://img.shields.io/npm/v/react-dropzone.svg?style=flat-square)](https://www.npmjs.com/package/@fppden/react-dropzone)
+[![Build Status](https://img.shields.io/travis/fppden/react-dropzone/master.svg?style=flat-square)](https://travis-ci.org/fppden/react-dropzone)
+[![codecov](https://img.shields.io/codecov/c/gh/fppden/react-dropzone/master.svg?style=flat-square)](https://codecov.io/gh/fppden/react-dropzone)
 [![Open Collective](https://img.shields.io/opencollective/backers/react-dropzone.svg?style=flat-square)](#backers)
 [![Open Collective](https://img.shields.io/opencollective/sponsors/react-dropzone.svg?style=flat-square)](#sponsors)
 
 Simple React hook to create a HTML5-compliant drag'n'drop zone for files.
 
-Documentation and examples at https://react-dropzone.js.org. Source code at https://github.com/react-dropzone/react-dropzone/.
+Source code at https://github.com/fppden/react-dropzone/.
+
+_This fork applies [a workaround](https://stackoverflow.com/a/17692175) for Firefox bug related to `dragenter` and `dragleave` events when dragging over a text node._
 
 
 ## Installation
@@ -273,7 +275,7 @@ function mockData(files) {
 
 *Note*: using [Enzyme](https://airbnb.io/enzyme) for testing is not supported at the moment, see [#2011](https://github.com/airbnb/enzyme/issues/2011).
 
-More examples for this can be found in `react-dropzone`s own [test suites](https://github.com/react-dropzone/react-dropzone/blob/master/src/index.spec.js).
+More examples for this can be found in `react-dropzone`s own [test suites](https://github.com/fppden/react-dropzone/blob/master/src/index.spec.js).
 
 
 ## Support
