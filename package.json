@@ -90,6 +90,9 @@
   "peerDependencies": {
     "react": ">= 16.8"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "attr-accept": "^1.1.3",
     "file-selector": "^0.1.11",
